@@ -1,0 +1,15 @@
+# Ignorar o diretório .terraform que contém o estado local do Terraform
+.terraform/
+
+# Ignorar os arquivos de estado do Terraform que contêm dados sensíveis
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignorar quaisquer arquivos de log de crash gerados pelo Terraform
+crash.log
+
+# Ignorar quaisquer arquivos .tfvars que contêm segredos
+*.tfvars
+
+# Ignorar o arquivo de plano
+*.tfplan
