@@ -62,7 +62,7 @@ Aplique o plano para criar os recursos na Azure:
 Digite yes quando solicitado para confirmar a criação dos recursos.
 
 ### Passo 6: Acessar o WordPress
-Após a conclusão da execução do Terraform, você verá o IP público da VM nos outputs. Use este IP para acessar o WordPress no seu navegador:
+Após a conclusão da execução do Terraform, você verá o IP público da VM nos outputs. Irá aparecer no terminal. Use este IP para acessar o WordPress no seu navegador:
 
 http://<IP_PUBLICO>
 
