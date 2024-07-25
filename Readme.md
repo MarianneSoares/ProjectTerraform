@@ -1,4 +1,4 @@
-#Deploy de WordPress na Azure com Terraform e Docker
+# Deploy de WordPress na Azure com Terraform e Docker
 Este projeto automatiza a criação de uma máquina virtual (VM) na Azure, instala Docker na VM e configura containers Docker para WordPress e MySQL usando Terraform.
 
 ### Pré-requisitos
