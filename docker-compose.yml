@@ -11,7 +11,7 @@ services:
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: wordpress
-      WORDPRESS_DB_PASSWORD: GAud4mZby8F3SD6P
+      WORDPRESS_DB_PASSWORD: wordpress
       WORDPRESS_DB_NAME: wordpress
     volumes:
       - wordpress_data:/var/www/html
@@ -23,7 +23,7 @@ services:
       MYSQL_ROOT_PASSWORD: GAud4mZby8F3SD6P
       MYSQL_DATABASE: wordpress
       MYSQL_USER: wordpress
-      MYSQL_PASSWORD: GAud4mZby8F3SD6P
+      MYSQL_PASSWORD: wordpress
     volumes:
       - db_data:/var/lib/mysql
 
