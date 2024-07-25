@@ -79,7 +79,7 @@ variable "admin_username" {
 variable "admin_password" {
   description = "A senha do administrador para a VM"
   type        = string
-  default     = "GAud4mZby8F3SD6P"
+  default     = "Senha123!"
 }
 variable "environment" {
   description = "A tag de ambiente para os recursos"
@@ -90,23 +90,23 @@ variable "environment" {
 variable "subscription_id" {
   description = "O ID da assinatura do Azure"
   type        = string
-  default     = ""  # vazio para usar a variável de ambiente ARM_SUBSCRIPTION_ID
+  default     = ""  # vazio para usar a variável de ambiente do subscription id
 }
 
 variable "client_id" {
   description = "O ID do cliente (aplicativo) registrado no Azure AD"
   type        = string
-  default     = ""  # vazio para usar a variável de ambiente ARM_CLIENT_ID
+  default     = ""  # vazio para usar a variável de ambiente do client id
 }
 
 variable "client_secret" {
   description = "O segredo do cliente (aplicativo) registrado no Azure AD"
   type        = string
-  default     = ""  # vazio para usar a variável de ambiente ARM_CLIENT_SECRET
+  default     = ""  # vazio para usar a variável de ambiente do client secret
 }
 
 variable "tenant_id" {
   description = "O ID do locatário (tenant) do Azure AD"
   type        = string
-  default     = ""  # vazio para usar a variável de ambiente ARM_TENANT_ID
+  default     = ""  # vazio para usar a variável de ambiente do tenant id
 }

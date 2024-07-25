@@ -13,3 +13,6 @@ crash.log
 
 # Ignorar o arquivo de plano
 *.tfplan
+
+# Ignorar a pasta das chaves ssh
+.ssh/
